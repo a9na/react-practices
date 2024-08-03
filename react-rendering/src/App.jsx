@@ -1,11 +1,11 @@
-import UserGreeting from "./UserGreeting";
+import UserGreeting from "./UserGreeting.jsx";
 
 function App() {
 
 
   return(
     <>
-      <UserGreeting isLoggedIn={true}/>
+      <UserGreeting isLoggedIn={true} username="anaiscoding"/>
       
 
 
