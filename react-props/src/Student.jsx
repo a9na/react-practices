@@ -1,10 +1,12 @@
 
 
 
-function Student() {
+function Student(props) {
 
 
 
 
 
 }
+
+export default Student
