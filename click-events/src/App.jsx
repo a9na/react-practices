@@ -7,7 +7,8 @@ function App() {
 
 
 
-  return(<Button />)
+  //return(<Button />)
+  return(<ProfilePicture />)
 
 }
 
