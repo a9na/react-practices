@@ -4,11 +4,11 @@ function MyComponent(){
 
     const [name, setName] = useState();
 
-    const updateName = () => {
+/*   const updateName = () => {
         name = "Ana";
         console.log(name);
     }
-
+*/
 
     return( <div>
                 <p>Name: {name}</p>
