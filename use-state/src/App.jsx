@@ -9,12 +9,15 @@ update its value in the Virtual DOM [name, setName]
 */
 
 import MyComponent from './MyComponent.jsx'
+import Counter from './Counter.jsx';
 
 
 function App() {
   
 
-  return(<MyComponent></MyComponent>);
+  return(//<MyComponent></MyComponent>
+    <Counter />
+  );
 
 }
 
