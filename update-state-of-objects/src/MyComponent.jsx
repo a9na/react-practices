@@ -8,15 +8,15 @@ function MyComponent() {
                                     model: "Mustang"});
 
     function handleYearChange(event){
-        setCar({...car, year: 2025});
+        setCar(prevCar => ({...prevCar, year: event.target.value}));
     }
-
+  
     function handleMakeChange(event){
-        
+        setCar(prevCar => ({...prevCar, make: event.target.value}))
     }
 
     function handleModelChange(event){
-        
+        setCar(prevCar => ({...prevCar, model: event.target.value}))
     }
 
     return (<div>
