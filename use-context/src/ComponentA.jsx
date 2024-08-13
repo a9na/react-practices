@@ -1,5 +1,7 @@
-import { useState } from 'react'
+import React, { useState, createContext } from 'react'
 import ComponentB from './ComponentB.jsx'
+
+export const UserContext = createContext();
 
 function ComponentA(){
 
@@ -7,6 +9,7 @@ function ComponentA(){
 
     return( <div className="box">
                 <h1>ComponentA</h1>
+                <h2>{`Hello ${user}`}</h2>
                 <ComponentB />
             </div>)
 }
