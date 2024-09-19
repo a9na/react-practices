@@ -33,22 +33,22 @@ Here’s an overview of some the mini-projects included in this repository:
 
 ## 🛠️ Installation and Setup
 
-1. Clone the repository to your local machine:
+1. **Clone the repository to your local machine:**
 ```
 git clone https://github.com/a9na/react-projects.git
 ```
 
-Navigate into the project directory:
+2. **Navigate into the project directory:**
 ```
 cd react-projects
 ```
 
-Install the dependencies:
+3. **Install the dependencies:**
 ```
 npm install
 ```
 
-Run the application:
+4. **Run the application:**
 ```
 npm start
 ```
